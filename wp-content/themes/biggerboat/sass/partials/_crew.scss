@@ -1,0 +1,173 @@
+$crew-width: 795px;
+
+#crew {
+    width: $crew-width;
+    margin: -114px auto 0px auto;
+    position: relative;
+    z-index: 10;
+
+    .anchor {
+        background-image: url('../img/crew/bottom.png');
+        height: 313px;
+    }
+
+    .column {
+        width: $crew-width/2;
+
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+
+        .content {
+            font-family: $font-geek;
+            padding: 10px 60px 10px 54px;
+            font-size: 12px;
+            color: black;
+
+            p {
+                font-family: 'Droid Sans', sans-serif;
+
+                color: #333333;
+                line-height: 18px;
+                margin-bottom: 5px;
+
+                &.skills {
+                    margin-bottom: 15px;
+                }
+            }
+
+            h2 {
+                font-family: $font-fat-titles;
+                margin-bottom: 10px;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: black;
+            }
+
+            h3 {
+                font-family: $font-fat-titles;
+                color: black;
+                margin-top: 10px;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+
+            .howtocontact {
+                margin-top: 25px;
+                .contact {
+                    word-wrap: break-word;
+                    padding-right: 5px;
+                    width: 135px;
+                    height: 90px;
+                    border-right-style: solid;
+                    border-right-color: gray;
+                    border-right-width: 1px;
+
+                    .phone, .email {
+                    }
+
+                 }
+                }
+
+             .links {
+                    float: right;
+                    width: 40%;
+
+                    .button {
+                        width: 113px;
+                        height: 30px;
+                    }
+
+                    .linkedin .button {
+                        background-image: url('../img/crew/button-linkedin-up.png');
+                    }
+                    .twitter .button {
+                        background-image: url('../img/crew/button-twitter-up.png');
+                    }
+                    .portfolio .button {
+                        background-image: url('../img/crew/button-portfolio-up.png');
+                    }
+
+                    .linkedin:hover .button {
+                        background-image: url('../img/crew/button-linkedin-down.png');
+                    }
+                    .twitter:hover .button {
+                        background-image: url('../img/crew/button-twitter-down.png');
+                    }
+                    .portfolio:hover .button {
+                        background-image: url('../img/crew/button-portfolio-down.png');
+                    }
+                }
+        }
+
+        &.right {
+            right: 0px;
+            position: absolute;
+
+            .filler {
+                background-image: url('../img/crew/right-filler.png');
+            }
+
+             li.first .head {
+                margin-top: 200px;
+                background-image: url('../img/crew/top_right.png');
+                height: 96px;
+            }
+
+            .head {
+                background-image: url('../img/crew/regular_top_right.png');
+                height: 42px;
+            }
+
+            .foot {
+                background-image: url('../img/crew/bottom_right.png');
+                height: 38px;
+            }
+
+            .content {
+                background-image: url('../img/crew/regular_middle_right.png');
+            }
+
+        }
+        &.left {
+            position: relative;
+            left: 0px;
+
+             li.first .head {
+                background-image: url('../img/crew/top_left.png');
+                height: 349px;
+            }
+
+            .head {
+                background-image: url('../img/crew/regular_top_left.png');
+                height: 42px;
+            }
+
+            .foot {
+                background-image: url('../img/crew/regular_bottom_left.png');
+                height: 43px;
+            }
+
+            .content {
+                background-image: url('../img/crew/regular_left.png');
+            }
+
+            .filler {
+                background-image: url('../img/crew/left-filler.png');
+            }
+
+
+        }
+    }
+
+}
+
+.crewlogo {
+    background-image: url("../img/the-crew.png");
+    width: 261px;
+    height: 48px;
+    position: absolute;
+    right: 14px;
+    top: 168px;
+}

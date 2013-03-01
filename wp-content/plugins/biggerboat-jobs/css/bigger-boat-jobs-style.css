@@ -1,0 +1,3068 @@
+/*input field for metaboxes in job post type*/
+.postbox input[type="text"].field {
+  width: 100%;
+  height: 28px;
+  margin: 4px 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap, .admin_page_biggerboat-jobs-detail #wpbody .wrap {
+  /*!
+ * Bootstrap v1.4.0
+ *
+ * Copyright 2011 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Date: Wed Nov 16 00:28:10 PST 2011
+ */
+
+  /* Reset.less
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* Variables.less
+ * Variables to customize the look and feel of Bootstrap
+ * ----------------------------------------------------- */
+
+  /* Mixins.less
+ * Snippets of reusable CSS to develop faster and keep code readable
+ * ----------------------------------------------------------------- */
+
+  /*
+ * Scaffolding
+ * Basic and global styles for generating a grid system, structural layout, and page templates
+ * ------------------------------------------------------------------------------------------- */
+
+  /* Typography.less
+ * Headings, body text, lists, code, and more for a versatile and durable typography system
+ * ---------------------------------------------------------------------------------------- */
+
+  /* Forms.less
+ * Base styles for various input types, form layouts, and states
+ * ------------------------------------------------------------- */
+
+  /*
+ * Tables.less
+ * Tables for, you guessed it, tabular data
+ * ---------------------------------------- */
+
+  /* Patterns.less
+ * Repeatable UI elements outside the base styles provided from the scaffolding
+ * ---------------------------------------------------------------------------- */
+
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .subinput, .admin_page_biggerboat-jobs-detail #wpbody .wrap .subinput {
+  padding-left: 20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label.gold, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label.gold {
+  background-color: #a08a29;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #activity ul, .admin_page_biggerboat-jobs-detail #wpbody .wrap #activity ul {
+  padding: 0;
+  margin: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #activity li, .admin_page_biggerboat-jobs-detail #wpbody .wrap #activity li {
+  list-style: none;
+  line-height: 23px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap span.label, .admin_page_biggerboat-jobs-detail #wpbody .wrap span.label {
+  padding: 4px 5px 2px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .condensed-table th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .condensed-table th,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .condensed-table td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .condensed-table td {
+  vertical-align: middle;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .subinput, .admin_page_biggerboat-jobs-detail #wpbody .wrap .subinput {
+  display: block;
+  margin-bottom: 10px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #project_description, .admin_page_biggerboat-jobs-detail #wpbody .wrap #project_description {
+  width: 700px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #team, .admin_page_biggerboat-jobs-detail #wpbody .wrap #team {
+  width: 600px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #team .twipsy, .admin_page_biggerboat-jobs-detail #wpbody .wrap #team .twipsy {
+  float: left;
+  display: inline;
+  margin: -8px 6px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap #team th, .admin_page_biggerboat-jobs-detail #wpbody .wrap #team th {
+  width: 80px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .no, .admin_page_biggerboat-jobs-detail #wpbody .wrap .no {
+  color: red;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .no-answer, .admin_page_biggerboat-jobs-detail #wpbody .wrap .no-answer {
+  color: gray;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .yes, .admin_page_biggerboat-jobs-detail #wpbody .wrap .yes {
+  color: green;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap html,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap html,
+.toplevel_page_biggerboat-jobs #wpbody .wrap body,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap body {
+  margin: 0;
+  padding: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h1,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h1,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h2,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h2,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h3,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h4,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h5,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h5,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h6,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h6,
+.toplevel_page_biggerboat-jobs #wpbody .wrap p,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap p,
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote,
+.toplevel_page_biggerboat-jobs #wpbody .wrap pre,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap pre,
+.toplevel_page_biggerboat-jobs #wpbody .wrap a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap abbr,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap abbr,
+.toplevel_page_biggerboat-jobs #wpbody .wrap acronym,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap acronym,
+.toplevel_page_biggerboat-jobs #wpbody .wrap address,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap address,
+.toplevel_page_biggerboat-jobs #wpbody .wrap cite,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap cite,
+.toplevel_page_biggerboat-jobs #wpbody .wrap code,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap code,
+.toplevel_page_biggerboat-jobs #wpbody .wrap del,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap del,
+.toplevel_page_biggerboat-jobs #wpbody .wrap dfn,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dfn,
+.toplevel_page_biggerboat-jobs #wpbody .wrap em,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap em,
+.toplevel_page_biggerboat-jobs #wpbody .wrap img,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap img,
+.toplevel_page_biggerboat-jobs #wpbody .wrap q,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap q,
+.toplevel_page_biggerboat-jobs #wpbody .wrap s,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap s,
+.toplevel_page_biggerboat-jobs #wpbody .wrap samp,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap samp,
+.toplevel_page_biggerboat-jobs #wpbody .wrap small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap strike,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap strike,
+.toplevel_page_biggerboat-jobs #wpbody .wrap strong,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap strong,
+.toplevel_page_biggerboat-jobs #wpbody .wrap sub,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap sub,
+.toplevel_page_biggerboat-jobs #wpbody .wrap sup,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap sup,
+.toplevel_page_biggerboat-jobs #wpbody .wrap tt,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap tt,
+.toplevel_page_biggerboat-jobs #wpbody .wrap var,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap var,
+.toplevel_page_biggerboat-jobs #wpbody .wrap dd,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dd,
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dl,
+.toplevel_page_biggerboat-jobs #wpbody .wrap dt,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dt,
+.toplevel_page_biggerboat-jobs #wpbody .wrap li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap li,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ol,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap fieldset,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap fieldset,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form,
+.toplevel_page_biggerboat-jobs #wpbody .wrap label,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap label,
+.toplevel_page_biggerboat-jobs #wpbody .wrap legend,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap legend,
+.toplevel_page_biggerboat-jobs #wpbody .wrap button,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table,
+.toplevel_page_biggerboat-jobs #wpbody .wrap caption,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap caption,
+.toplevel_page_biggerboat-jobs #wpbody .wrap tbody,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap tbody,
+.toplevel_page_biggerboat-jobs #wpbody .wrap tfoot,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap tfoot,
+.toplevel_page_biggerboat-jobs #wpbody .wrap thead,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap thead,
+.toplevel_page_biggerboat-jobs #wpbody .wrap tr,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap tr,
+.toplevel_page_biggerboat-jobs #wpbody .wrap th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap th,
+.toplevel_page_biggerboat-jobs #wpbody .wrap td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table, .admin_page_biggerboat-jobs-detail #wpbody .wrap table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ol,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ul {
+  list-style: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap q:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap q:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap q:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap q:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote:after {
+  content: "";
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap html, .admin_page_biggerboat-jobs-detail #wpbody .wrap html {
+  overflow-y: scroll;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap a:focus, .admin_page_biggerboat-jobs-detail #wpbody .wrap a:focus {
+  outline: thin dotted;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap a:active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap a:active {
+  outline: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap article,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap article,
+.toplevel_page_biggerboat-jobs #wpbody .wrap aside,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap aside,
+.toplevel_page_biggerboat-jobs #wpbody .wrap details,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap details,
+.toplevel_page_biggerboat-jobs #wpbody .wrap figcaption,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap figcaption,
+.toplevel_page_biggerboat-jobs #wpbody .wrap figure,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap figure,
+.toplevel_page_biggerboat-jobs #wpbody .wrap footer,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap footer,
+.toplevel_page_biggerboat-jobs #wpbody .wrap header,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap header,
+.toplevel_page_biggerboat-jobs #wpbody .wrap hgroup,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap hgroup,
+.toplevel_page_biggerboat-jobs #wpbody .wrap nav,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap nav,
+.toplevel_page_biggerboat-jobs #wpbody .wrap section,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap section {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap audio,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap audio,
+.toplevel_page_biggerboat-jobs #wpbody .wrap canvas,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap canvas,
+.toplevel_page_biggerboat-jobs #wpbody .wrap video,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap audio:not([controls]), .admin_page_biggerboat-jobs-detail #wpbody .wrap audio:not([controls]) {
+  display: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap sub,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap sub,
+.toplevel_page_biggerboat-jobs #wpbody .wrap sup,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap sup, .admin_page_biggerboat-jobs-detail #wpbody .wrap sup {
+  top: -0.5em;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap sub, .admin_page_biggerboat-jobs-detail #wpbody .wrap sub {
+  bottom: -0.25em;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap img, .admin_page_biggerboat-jobs-detail #wpbody .wrap img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap button,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap button,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input {
+  line-height: normal;
+  *overflow: visible;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap button::-moz-focus-inner,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button::-moz-focus-inner,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input::-moz-focus-inner,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap button,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type="button"],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type="button"],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type="reset"],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type="reset"],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type="submit"],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type="search"], .admin_page_biggerboat-jobs-detail #wpbody .wrap input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type="search"]::-webkit-search-decoration, .admin_page_biggerboat-jobs-detail #wpbody .wrap input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea, .admin_page_biggerboat-jobs-detail #wpbody .wrap textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap body, .admin_page_biggerboat-jobs-detail #wpbody .wrap body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .container:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .container:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid {
+  position: relative;
+  min-width: 940px;
+  padding-left: 20px;
+  padding-right: 20px;
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid > .sidebar, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid > .sidebar {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 220px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .container-fluid > .content, .admin_page_biggerboat-jobs-detail #wpbody .wrap .container-fluid > .content {
+  margin-left: 240px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap a, .admin_page_biggerboat-jobs-detail #wpbody .wrap a {
+  color: #0069d6;
+  text-decoration: none;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap a:hover {
+  color: #00438a;
+  text-decoration: underline;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pull-right, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pull-right {
+  float: right;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pull-left, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pull-left {
+  float: left;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .hide, .admin_page_biggerboat-jobs-detail #wpbody .wrap .hide {
+  display: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .show, .admin_page_biggerboat-jobs-detail #wpbody .wrap .show {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row {
+  zoom: 1;
+  margin-left: -20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .row:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .row:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > [class*="span"], .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > [class*="span"] {
+  display: inline;
+  float: left;
+  margin-left: 20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span1, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span1 {
+  width: 40px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span2, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span2 {
+  width: 100px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span3, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span3 {
+  width: 160px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span4, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span4 {
+  width: 220px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span5, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span5 {
+  width: 280px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span6, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span6 {
+  width: 340px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span7, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span7 {
+  width: 400px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span8, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span8 {
+  width: 460px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span9, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span9 {
+  width: 520px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span10, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span10 {
+  width: 580px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span11, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span11 {
+  width: 640px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span12, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span12 {
+  width: 700px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span13, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span13 {
+  width: 760px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span14, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span14 {
+  width: 820px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span15, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span15 {
+  width: 880px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span16, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span16 {
+  width: 940px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span17, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span17 {
+  width: 1000px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span18, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span18 {
+  width: 1060px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span19, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span19 {
+  width: 1120px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span20, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span20 {
+  width: 1180px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span21, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span21 {
+  width: 1240px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span22, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span22 {
+  width: 1300px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span23, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span23 {
+  width: 1360px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span24, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span24 {
+  width: 1420px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset1, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset1 {
+  margin-left: 80px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset2, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset2 {
+  margin-left: 140px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset3, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset3 {
+  margin-left: 200px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset4, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset4 {
+  margin-left: 260px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset5, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset5 {
+  margin-left: 320px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset6, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset6 {
+  margin-left: 380px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset7, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset7 {
+  margin-left: 440px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset8, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset8 {
+  margin-left: 500px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset9, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset9 {
+  margin-left: 560px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset10, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset10 {
+  margin-left: 620px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset11, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset11 {
+  margin-left: 680px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset12, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset12 {
+  margin-left: 740px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span-one-third, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span-one-third {
+  width: 300px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .span-two-thirds, .admin_page_biggerboat-jobs-detail #wpbody .wrap .span-two-thirds {
+  width: 620px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset-one-third, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset-one-third {
+  margin-left: 340px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .row > .offset-two-thirds, .admin_page_biggerboat-jobs-detail #wpbody .wrap .row > .offset-two-thirds {
+  margin-left: 660px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap p, .admin_page_biggerboat-jobs-detail #wpbody .wrap p {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-bottom: 9px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap p small, .admin_page_biggerboat-jobs-detail #wpbody .wrap p small {
+  font-size: 11px;
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h1,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h1,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h2,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h2,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h3,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h4,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h5,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h5,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h6,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h6 {
+  font-weight: bold;
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h1 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h1 small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h2 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h2 small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h3 small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h4 small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h5 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h5 small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h6 small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h6 small {
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h1, .admin_page_biggerboat-jobs-detail #wpbody .wrap h1 {
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h1 small, .admin_page_biggerboat-jobs-detail #wpbody .wrap h1 small {
+  font-size: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h2, .admin_page_biggerboat-jobs-detail #wpbody .wrap h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h2 small, .admin_page_biggerboat-jobs-detail #wpbody .wrap h2 small {
+  font-size: 14px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h3,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h4,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h5,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h5,
+.toplevel_page_biggerboat-jobs #wpbody .wrap h6,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap h6 {
+  line-height: 36px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3, .admin_page_biggerboat-jobs-detail #wpbody .wrap h3 {
+  font-size: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h3 small, .admin_page_biggerboat-jobs-detail #wpbody .wrap h3 small {
+  font-size: 14px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4, .admin_page_biggerboat-jobs-detail #wpbody .wrap h4 {
+  font-size: 16px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h4 small, .admin_page_biggerboat-jobs-detail #wpbody .wrap h4 small {
+  font-size: 12px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h5, .admin_page_biggerboat-jobs-detail #wpbody .wrap h5 {
+  font-size: 14px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap h6, .admin_page_biggerboat-jobs-detail #wpbody .wrap h6 {
+  font-size: 13px;
+  color: #bfbfbf;
+  text-transform: uppercase;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ol {
+  margin: 0 0 18px 25px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ul ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ul ol,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ol ol,
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap ol ul {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul, .admin_page_biggerboat-jobs-detail #wpbody .wrap ul {
+  list-style: disc;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ol, .admin_page_biggerboat-jobs-detail #wpbody .wrap ol {
+  list-style: decimal;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap li, .admin_page_biggerboat-jobs-detail #wpbody .wrap li {
+  line-height: 18px;
+  color: #808080;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap ul.unstyled, .admin_page_biggerboat-jobs-detail #wpbody .wrap ul.unstyled {
+  list-style: none;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl, .admin_page_biggerboat-jobs-detail #wpbody .wrap dl {
+  margin-bottom: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl dt,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dl dt,
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl dd,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap dl dd {
+  line-height: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl dt, .admin_page_biggerboat-jobs-detail #wpbody .wrap dl dt {
+  font-weight: bold;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap dl dd, .admin_page_biggerboat-jobs-detail #wpbody .wrap dl dd {
+  margin-left: 9px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap hr, .admin_page_biggerboat-jobs-detail #wpbody .wrap hr {
+  margin: 20px 0 19px;
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap strong, .admin_page_biggerboat-jobs-detail #wpbody .wrap strong {
+  font-style: inherit;
+  font-weight: bold;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap em, .admin_page_biggerboat-jobs-detail #wpbody .wrap em {
+  font-style: italic;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .muted, .admin_page_biggerboat-jobs-detail #wpbody .wrap .muted {
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote, .admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote {
+  margin-bottom: 18px;
+  border-left: 5px solid #eee;
+  padding-left: 15px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote p, .admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote small, .admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote small {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap blockquote small:before, .admin_page_biggerboat-jobs-detail #wpbody .wrap blockquote small:before {
+  content: '\2014 \00A0';
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap address, .admin_page_biggerboat-jobs-detail #wpbody .wrap address {
+  display: block;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap code,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap code,
+.toplevel_page_biggerboat-jobs #wpbody .wrap pre,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Andale Mono, Courier New, monospace;
+  font-size: 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap code, .admin_page_biggerboat-jobs-detail #wpbody .wrap code {
+  background-color: #fee9cc;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 1px 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap pre, .admin_page_biggerboat-jobs-detail #wpbody .wrap pre {
+  background-color: #f5f5f5;
+  display: block;
+  padding: 8.5px;
+  margin: 0 0 18px;
+  line-height: 18px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form, .admin_page_biggerboat-jobs-detail #wpbody .wrap form {
+  margin-bottom: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap fieldset, .admin_page_biggerboat-jobs-detail #wpbody .wrap fieldset {
+  margin-bottom: 18px;
+  padding-top: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap fieldset legend, .admin_page_biggerboat-jobs-detail #wpbody .wrap fieldset legend {
+  display: block;
+  padding-left: 150px;
+  font-size: 19.5px;
+  line-height: 1;
+  color: #404040;
+  *padding: 0 0 5px 145px;
+  /* IE6-7 */
+
+  *line-height: 1.5;
+  /* IE6-7 */
+
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix, .admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix {
+  margin-bottom: 18px;
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap label,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap label,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap label, .admin_page_biggerboat-jobs-detail #wpbody .wrap label {
+  padding-top: 6px;
+  font-size: 13px;
+  line-height: 18px;
+  float: left;
+  width: 130px;
+  text-align: right;
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .input, .admin_page_biggerboat-jobs-detail #wpbody .wrap form .input {
+  margin-left: 150px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=checkbox],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=checkbox],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=radio],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=radio] {
+  cursor: pointer;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .uneditable-input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .uneditable-input {
+  display: inline-block;
+  width: 210px;
+  height: 18px;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap select, .admin_page_biggerboat-jobs-detail #wpbody .wrap select {
+  padding: initial;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=checkbox],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=checkbox],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=radio],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=radio] {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 0;
+  *margin-top: 0;
+  /* IE6-7 */
+
+  line-height: normal;
+  border: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=file], .admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=file] {
+  background-color: #ffffff;
+  padding: initial;
+  border: initial;
+  line-height: initial;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=button],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=button],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=reset],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=reset],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=submit],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=submit] {
+  width: auto;
+  height: auto;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap select,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=file],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=file] {
+  height: 27px;
+  *height: auto;
+  line-height: 27px;
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap select[multiple], .admin_page_biggerboat-jobs-detail #wpbody .wrap select[multiple] {
+  height: inherit;
+  background-color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea, .admin_page_biggerboat-jobs-detail #wpbody .wrap textarea {
+  height: auto;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .uneditable-input, .admin_page_biggerboat-jobs-detail #wpbody .wrap .uneditable-input {
+  background-color: #ffffff;
+  display: block;
+  border-color: #eee;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  cursor: not-allowed;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap :-moz-placeholder, .admin_page_biggerboat-jobs-detail #wpbody .wrap :-moz-placeholder {
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap::-webkit-input-placeholder, .admin_page_biggerboat-jobs-detail #wpbody .wrap::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea:focus {
+  outline: 0;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=file]:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=file]:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=checkbox]:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=checkbox]:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: 1px dotted #666;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error > label,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error > label,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error .help-block,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error .help-block,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error .help-inline,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error .help-inline {
+  color: #b94a48;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error textarea {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error input:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error input:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error textarea:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error textarea:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error .input-prepend .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error .input-prepend .add-on,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.error .input-append .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.error .input-append .add-on {
+  color: #b94a48;
+  background-color: #fce6e6;
+  border-color: #b94a48;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning > label,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning > label,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning .help-block,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning .help-block,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning .help-inline,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning .help-inline {
+  color: #c09853;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning textarea {
+  color: #c09853;
+  border-color: #ccae64;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning input:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning input:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning textarea:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning textarea:focus {
+  border-color: #be9a3f;
+  -webkit-box-shadow: 0 0 6px #e5d6b1;
+  -moz-box-shadow: 0 0 6px #e5d6b1;
+  box-shadow: 0 0 6px #e5d6b1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning .input-prepend .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning .input-prepend .add-on,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.warning .input-append .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.warning .input-append .add-on {
+  color: #c09853;
+  background-color: #d2b877;
+  border-color: #c09853;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success > label,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success > label,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success .help-block,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success .help-block,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success .help-inline,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success .help-inline {
+  color: #468847;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success textarea,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success textarea {
+  color: #468847;
+  border-color: #57a957;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success input:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success input:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success textarea:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success textarea:focus {
+  border-color: #458845;
+  -webkit-box-shadow: 0 0 6px #9acc9a;
+  -moz-box-shadow: 0 0 6px #9acc9a;
+  box-shadow: 0 0 6px #9acc9a;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success .input-prepend .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success .input-prepend .add-on,
+.toplevel_page_biggerboat-jobs #wpbody .wrap form .clearfix.success .input-append .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap form .clearfix.success .input-append .add-on {
+  color: #468847;
+  background-color: #bcddbc;
+  border-color: #468847;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-mini,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-mini,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.mini,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.mini,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.mini,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.mini,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.mini,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.mini {
+  width: 60px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.small,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.small,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.small {
+  width: 90px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-medium,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-medium,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.medium,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.medium,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.medium,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.medium,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.medium,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.medium {
+  width: 150px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-large,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-large,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.large,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.large,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.large,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.large,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.large,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.large {
+  width: 210px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-xlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-xlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.xlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.xlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.xlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.xlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.xlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.xlarge {
+  width: 270px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-xxlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-xxlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.xxlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.xxlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.xxlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.xxlarge,
+.toplevel_page_biggerboat-jobs #wpbody .wrap select.xxlarge,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select.xxlarge {
+  width: 530px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.xxlarge, .admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.xxlarge {
+  overflow-y: auto;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span1,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span1,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span1,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span1 {
+  display: inline-block;
+  float: none;
+  width: 30px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span2,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span2,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span2,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span2 {
+  display: inline-block;
+  float: none;
+  width: 90px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span3,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span3,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span3,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span3 {
+  display: inline-block;
+  float: none;
+  width: 150px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span4,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span4,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span4,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span4 {
+  display: inline-block;
+  float: none;
+  width: 210px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span5,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span5,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span5,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span5 {
+  display: inline-block;
+  float: none;
+  width: 270px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span6,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span6,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span6,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span6 {
+  display: inline-block;
+  float: none;
+  width: 330px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span7,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span7,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span7,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span7 {
+  display: inline-block;
+  float: none;
+  width: 390px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span8,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span8,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span8,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span8 {
+  display: inline-block;
+  float: none;
+  width: 450px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span9,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span9,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span9,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span9 {
+  display: inline-block;
+  float: none;
+  width: 510px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span10,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span10,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span10,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span10 {
+  display: inline-block;
+  float: none;
+  width: 570px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span11,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span11,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span11,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span11 {
+  display: inline-block;
+  float: none;
+  width: 630px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span12,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span12,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span12,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span12 {
+  display: inline-block;
+  float: none;
+  width: 690px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span13,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span13,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span13,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span13 {
+  display: inline-block;
+  float: none;
+  width: 750px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span14,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span14,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span14,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span14 {
+  display: inline-block;
+  float: none;
+  width: 810px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span15,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span15,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span15,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span15 {
+  display: inline-block;
+  float: none;
+  width: 870px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input.span16,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input.span16,
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea.span16,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea.span16 {
+  display: inline-block;
+  float: none;
+  width: 930px;
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[disabled],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[disabled],
+.toplevel_page_biggerboat-jobs #wpbody .wrap select[disabled],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select[disabled],
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea[disabled],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea[disabled],
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[readonly],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[readonly],
+.toplevel_page_biggerboat-jobs #wpbody .wrap select[readonly],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap select[readonly],
+.toplevel_page_biggerboat-jobs #wpbody .wrap textarea[readonly],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap textarea[readonly] {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .actions, .admin_page_biggerboat-jobs-detail #wpbody .wrap .actions {
+  background: #f5f5f5;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 17px 20px 18px 150px;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .actions .secondary-action, .admin_page_biggerboat-jobs-detail #wpbody .wrap .actions .secondary-action {
+  float: right;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .actions .secondary-action a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .actions .secondary-action a {
+  line-height: 30px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .actions .secondary-action a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .actions .secondary-action a:hover {
+  text-decoration: underline;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .help-inline,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .help-inline,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .help-block,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .help-block {
+  font-size: 13px;
+  line-height: 18px;
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .help-inline, .admin_page_biggerboat-jobs-detail #wpbody .wrap .help-inline {
+  padding-left: 5px;
+  *position: relative;
+  /* IE6-7 */
+
+  *top: -5px;
+  /* IE6-7 */
+
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .help-block, .admin_page_biggerboat-jobs-detail #wpbody .wrap .help-block {
+  display: block;
+  max-width: 600px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inline-inputs, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inline-inputs {
+  color: #808080;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inline-inputs span, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inline-inputs span {
+  padding: 0 2px 0 1px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-prepend input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-prepend input,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-append input,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-append input {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-prepend .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-prepend .add-on,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-append .add-on,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-append .add-on {
+  position: relative;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  z-index: 2;
+  float: left;
+  display: block;
+  width: auto;
+  min-width: 16px;
+  height: 18px;
+  padding: 4px 4px 4px 5px;
+  margin-right: -1px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #bfbfbf;
+  text-align: center;
+  text-shadow: 0 1px 0 #ffffff;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-prepend .active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-prepend .active,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-append .active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .input-append .active {
+  background: #a9dba9;
+  border-color: #46a546;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-prepend .add-on, .admin_page_biggerboat-jobs-detail #wpbody .wrap .input-prepend .add-on {
+  *margin-top: 1px;
+  /* IE6-7 */
+
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-append input, .admin_page_biggerboat-jobs-detail #wpbody .wrap .input-append input {
+  float: left;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .input-append .add-on, .admin_page_biggerboat-jobs-detail #wpbody .wrap .input-append .add-on {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  margin-right: 0;
+  margin-left: -1px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list {
+  margin: 0 0 5px;
+  width: 100%;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list li {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list label, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list label {
+  display: block;
+  float: none;
+  width: auto;
+  padding: 0;
+  margin-left: 20px;
+  line-height: 18px;
+  text-align: left;
+  white-space: normal;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list label strong, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list label strong {
+  color: #808080;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list label small, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list label small {
+  font-size: 11px;
+  font-weight: normal;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list .inputs-list, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list .inputs-list {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  padding-top: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list:first-child, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list:first-child {
+  padding-top: 6px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list li + li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list li + li {
+  padding-top: 2px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list input[type=radio],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list input[type=radio],
+.toplevel_page_biggerboat-jobs #wpbody .wrap .inputs-list input[type=checkbox],
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .inputs-list input[type=checkbox] {
+  margin-bottom: 0;
+  margin-left: -20px;
+  float: left;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked {
+  padding-left: 20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked fieldset, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked fieldset {
+  padding-top: 9px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked legend, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked legend {
+  padding-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked label, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked label {
+  display: block;
+  float: none;
+  width: auto;
+  font-weight: bold;
+  text-align: left;
+  line-height: 20px;
+  padding-top: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .clearfix, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .clearfix {
+  margin-bottom: 9px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .clearfix div.input, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .clearfix div.input {
+  margin-left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .inputs-list, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .inputs-list {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .inputs-list li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .inputs-list li {
+  padding-top: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .inputs-list li label, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .inputs-list li label {
+  font-weight: normal;
+  padding-top: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked div.clearfix.error, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked div.clearfix.error {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-left: -10px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .form-stacked .actions, .admin_page_biggerboat-jobs-detail #wpbody .wrap .form-stacked .actions {
+  margin-left: -20px;
+  padding-left: 20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table, .admin_page_biggerboat-jobs-detail #wpbody .wrap table {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table th,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table td {
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table th, .admin_page_biggerboat-jobs-detail #wpbody .wrap table th {
+  padding-top: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table td, .admin_page_biggerboat-jobs-detail #wpbody .wrap table td {
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table tbody th, .admin_page_biggerboat-jobs-detail #wpbody .wrap table tbody th {
+  border-top: 1px solid #ddd;
+  vertical-align: top;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .condensed-table th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .condensed-table th,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .condensed-table td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .condensed-table td {
+  padding: 5px 5px 4px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table, .admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  /* IE7, collapse table to remove spacing */
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table th + th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table th + th,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table td + td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table td + td,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table th + td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table th + td {
+  border-left: 1px solid #ddd;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table thead tr:first-child th:first-child,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table thead tr:first-child th:first-child,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table tbody tr:first-child td:first-child,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table tbody tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table thead tr:first-child th:last-child,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table thead tr:first-child th:last-child,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table tbody tr:first-child td:last-child,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table tbody tr:last-child td:first-child, .admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table tbody tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .bordered-table tbody tr:last-child td:last-child, .admin_page_biggerboat-jobs-detail #wpbody .wrap .bordered-table tbody tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span1, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span1 {
+  width: 20px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span2, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span2 {
+  width: 60px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span3, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span3 {
+  width: 100px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span4, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span4 {
+  width: 140px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span5, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span5 {
+  width: 180px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span6, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span6 {
+  width: 220px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span7, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span7 {
+  width: 260px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span8, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span8 {
+  width: 300px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span9, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span9 {
+  width: 340px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span10, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span10 {
+  width: 380px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span11, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span11 {
+  width: 420px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span12, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span12 {
+  width: 460px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span13, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span13 {
+  width: 500px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span14, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span14 {
+  width: 540px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span15, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span15 {
+  width: 580px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .span16, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .span16 {
+  width: 620px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .zebra-striped tbody tr:nth-child(odd) td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .zebra-striped tbody tr:nth-child(odd) td,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .zebra-striped tbody tr:nth-child(odd) th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .zebra-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .zebra-striped tbody tr:hover td,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .zebra-striped tbody tr:hover td,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .zebra-striped tbody tr:hover th,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .zebra-striped tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .header, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .header {
+  cursor: pointer;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .header:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .header:after {
+  content: "";
+  float: right;
+  margin-top: 7px;
+  border-width: 0 4px 4px;
+  border-style: solid;
+  border-color: #000 transparent;
+  visibility: hidden;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown {
+  background-color: rgba(141, 192, 219, 0.25);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .header:hover:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .header:hover:after {
+  visibility: visible;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown:hover:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown:hover:after {
+  visibility: visible;
+  filter: alpha(opacity=60);
+  -khtml-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp:after {
+  border-bottom: none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #000;
+  visibility: visible;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  filter: alpha(opacity=60);
+  -khtml-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .blue, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .blue {
+  color: #049cdb;
+  border-bottom-color: #049cdb;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.blue,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.blue,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.blue,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.blue {
+  background-color: #ade6fe;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .green, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .green {
+  color: #46a546;
+  border-bottom-color: #46a546;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.green,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.green,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.green,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.green {
+  background-color: #cdeacd;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .red, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .red {
+  color: #9d261d;
+  border-bottom-color: #9d261d;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.red,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.red,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.red,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.red {
+  background-color: #f4c8c5;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .yellow, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .yellow {
+  color: #ffc40d;
+  border-bottom-color: #ffc40d;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.yellow,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.yellow,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.yellow,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.yellow {
+  background-color: #fff6d9;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .orange, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .orange {
+  color: #f89406;
+  border-bottom-color: #f89406;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.orange,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.orange,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.orange,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.orange {
+  background-color: #fee9cc;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .purple, .admin_page_biggerboat-jobs-detail #wpbody .wrap table .purple {
+  color: #7a43b6;
+  border-bottom-color: #7a43b6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortUp.purple,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortUp.purple,
+.toplevel_page_biggerboat-jobs #wpbody .wrap table .headerSortDown.purple,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap table .headerSortDown.purple {
+  background-color: #e2d5f0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar a {
+  color: #bfbfbf;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar h3 a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar h3 a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar .brand:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar .brand:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar ul .active > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar ul .active > a {
+  background-color: #333;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  text-decoration: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar h3, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar h3 {
+  position: relative;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar h3 a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar h3 a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar .brand,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar .brand {
+  float: left;
+  display: block;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar p, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar p {
+  margin: 0;
+  line-height: 40px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar p a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar p a:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar form, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar form {
+  float: left;
+  margin: 5px 0 0 0;
+  position: relative;
+  filter: alpha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar form.pull-right, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar form.pull-right {
+  float: right;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input {
+  background-color: #444;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: normal;
+  font-weight: 13px;
+  line-height: 1;
+  padding: 4px 9px;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #111;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.25);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input:-moz-placeholder, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input:-moz-placeholder {
+  color: #e6e6e6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input::-webkit-input-placeholder, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input:hover {
+  background-color: #bfbfbf;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input:focus,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input:focus,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar input.focused,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar input.focused {
+  outline: 0;
+  background-color: #ffffff;
+  color: #404040;
+  text-shadow: 0 1px 0 #ffffff;
+  border: 0;
+  padding: 5px 10px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  position: relative;
+  left: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul > li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul > li,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav > li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav > li {
+  display: block;
+  float: left;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav a {
+  display: block;
+  float: none;
+  padding: 10px 10px 11px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .active > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .active > a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .active > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .active > a {
+  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul.secondary-nav,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul.secondary-nav,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav.secondary-nav,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav.secondary-nav {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul.secondary-nav .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul.secondary-nav .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav.secondary-nav .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav.secondary-nav .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul.secondary-nav .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul.secondary-nav .dropdown-menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav.secondary-nav .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav.secondary-nav .dropdown-menu {
+  right: 0;
+  border: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul a.menu:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul a.menu:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav a.menu:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav a.menu:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul li.open .menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul li.open .menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav li.open .menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav li.open .menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-toggle:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-toggle:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-toggle:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-toggle:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown.open .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown.open .dropdown-toggle,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown.open .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown.open .dropdown-toggle {
+  background: #444;
+  background: rgba(255, 255, 255, 0.05);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu {
+  background-color: #333;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown a.menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown a.menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown a.menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown a.menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu a.menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu a.menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu a.menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu a.menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown .dropdown-toggle,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown .dropdown-toggle,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu .dropdown-toggle,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu .dropdown-toggle {
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown a.menu.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown a.menu.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown a.menu.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown a.menu.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu a.menu.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu a.menu.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu a.menu.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu a.menu.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown .dropdown-toggle.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown .dropdown-toggle.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown .dropdown-toggle.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown .dropdown-toggle.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu .dropdown-toggle.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu .dropdown-toggle.open,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu .dropdown-toggle.open,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu .dropdown-toggle.open {
+  background: #444;
+  background: rgba(255, 255, 255, 0.05);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown li a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown li a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu li a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu li a {
+  color: #999;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown li a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown li a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown li a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown li a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu li a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu li a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu li a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu li a:hover {
+  background-color: #191919;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#292929), to(#191919));
+  background-image: -moz-linear-gradient(top, #292929, #191919);
+  background-image: -ms-linear-gradient(top, #292929, #191919);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #191919));
+  background-image: -webkit-linear-gradient(top, #292929, #191919);
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown .active a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown .active a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown .active a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown .active a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu .active a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu .active a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu .active a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu .active a {
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .menu-dropdown .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .menu-dropdown .divider,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .menu-dropdown .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .menu-dropdown .divider,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar div > ul .dropdown-menu .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar div > ul .dropdown-menu .divider,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .nav .dropdown-menu .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .nav .dropdown-menu .divider {
+  background-color: #222;
+  border-color: #444;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar ul .menu-dropdown li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar ul .menu-dropdown li a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar ul .dropdown-menu li a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar ul .dropdown-menu li a {
+  padding: 4px 15px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap li.menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap li.menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown {
+  position: relative;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap a.menu:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap a.menu:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-toggle:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-toggle:after {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  content: "&darr;";
+  text-indent: -99999px;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-left: 4px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #ffffff;
+  filter: alpha(opacity=50);
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu {
+  background-color: #ffffff;
+  float: left;
+  display: none;
+  position: absolute;
+  top: 40px;
+  z-index: 900;
+  min-width: 160px;
+  max-width: 220px;
+  _width: 160px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 6px 0;
+  zoom: 1;
+  border-color: #999;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 0 1px 1px;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .menu-dropdown li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .menu-dropdown li,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu li {
+  float: none;
+  display: block;
+  background-color: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .menu-dropdown .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .menu-dropdown .divider,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu .divider,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu .divider {
+  height: 1px;
+  margin: 5px 0;
+  overflow: hidden;
+  background-color: #eee;
+  border-bottom: 1px solid #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar .dropdown-menu a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar .dropdown-menu a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu a {
+  display: block;
+  padding: 4px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #808080;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar .dropdown-menu a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar .dropdown-menu a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .topbar .dropdown-menu a.hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .topbar .dropdown-menu a.hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown-menu a.hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown-menu a.hover {
+  background-color: #dddddd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));
+  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -ms-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -o-linear-gradient(top, #eeeeee, #dddddd);
+  color: #404040;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .open .menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .open .menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown.open .menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown.open .menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .open .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .open .dropdown-toggle,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown.open .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown.open .dropdown-toggle {
+  color: #ffffff;
+  background: #ccc;
+  background: rgba(0, 0, 0, 0.3);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .open .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .open .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown.open .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown.open .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .open .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .open .dropdown-menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .dropdown.open .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .dropdown.open .dropdown-menu {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills {
+  margin: 0 0 18px;
+  padding: 0;
+  list-style: none;
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs > li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs > li,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills > li,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills > li {
+  float: left;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs > li > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs > li > a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills > li > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pills > li > a {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs, .admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs {
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs > li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs > li {
+  position: relative;
+  margin-bottom: -1px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs > li > a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs > li > a {
+  padding: 0 15px;
+  margin-right: 2px;
+  line-height: 34px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs > li > a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs > li > a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  border-color: #eee #eee #ddd;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .active > a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .active > a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .active > a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .active > a:hover {
+  color: #808080;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .menu-dropdown,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .menu-dropdown,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .dropdown-menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .dropdown-menu {
+  top: 35px;
+  border-width: 1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs a.menu:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs a.menu:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .dropdown-toggle:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .dropdown-toggle:after {
+  border-top-color: #999;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs li.open.menu .menu,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs li.open.menu .menu,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .open.dropdown .dropdown-toggle,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .open.dropdown .dropdown-toggle {
+  border-color: #999;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs li.open a.menu:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs li.open a.menu:after,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tabs .dropdown.open .dropdown-toggle:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tabs .dropdown.open .dropdown-toggle:after {
+  border-top-color: #555;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pills a {
+  margin: 5px 3px 5px 0;
+  padding: 0 15px;
+  line-height: 30px;
+  text-shadow: 0 1px 1px #ffffff;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pills a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: #00438a;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills .active a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pills .active a {
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: #0069d6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pills-vertical > li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pills-vertical > li {
+  float: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tab-content > .tab-pane,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tab-content > .tab-pane,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pill-content > .pill-pane,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pill-content > .pill-pane,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tab-content > div,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tab-content > div,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pill-content > div,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pill-content > div {
+  display: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .tab-content > .active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .tab-content > .active,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pill-content > .active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pill-content > .active {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .breadcrumb, .admin_page_biggerboat-jobs-detail #wpbody .wrap .breadcrumb {
+  padding: 7px 14px;
+  margin: 0 0 18px;
+  background-color: #f5f5f5;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .breadcrumb li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .breadcrumb li {
+  display: inline;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .breadcrumb .divider, .admin_page_biggerboat-jobs-detail #wpbody .wrap .breadcrumb .divider {
+  padding: 0 5px;
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .breadcrumb .active a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .breadcrumb .active a {
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .hero-unit, .admin_page_biggerboat-jobs-detail #wpbody .wrap .hero-unit {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  padding: 60px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .hero-unit h1, .admin_page_biggerboat-jobs-detail #wpbody .wrap .hero-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .hero-unit p, .admin_page_biggerboat-jobs-detail #wpbody .wrap .hero-unit p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap footer, .admin_page_biggerboat-jobs-detail #wpbody .wrap footer {
+  margin-top: 17px;
+  padding-top: 17px;
+  border-top: 1px solid #eee;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .page-header, .admin_page_biggerboat-jobs-detail #wpbody .wrap .page-header {
+  margin-bottom: 17px;
+  border-bottom: 1px solid #ddd;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .page-header h1, .admin_page_biggerboat-jobs-detail #wpbody .wrap .page-header h1 {
+  margin-bottom: 8px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.danger,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.danger,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.danger,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.danger,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.danger:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.danger:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.danger:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.danger:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.error,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.error,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.error,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.error,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.error:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.error:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.error:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.error:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.success,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.success,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.success,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.success,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.success:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.success:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.success:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.success:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.info,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.info,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.info,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.info,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.info:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.info:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.info:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.info:hover {
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn .close,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn .close,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message .close,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message .close {
+  font-family: Arial, sans-serif;
+  line-height: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.danger,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.danger,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.danger,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.danger,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.error,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.error,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.error,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.error {
+  background-color: #c43c35;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+  background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+  background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5b), color-stop(100%, #c43c35));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+  background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #c43c35 #c43c35 #882a25;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.success,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.success,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.success,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.success {
+  background-color: #57a957;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957));
+  background-image: -moz-linear-gradient(top, #62c462, #57a957);
+  background-image: -ms-linear-gradient(top, #62c462, #57a957);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
+  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
+  background-image: -o-linear-gradient(top, #62c462, #57a957);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #57a957 #57a957 #3d773d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.info,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.info,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.info,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.info {
+  background-color: #339bb9;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#5bc0de), to(#339bb9));
+  background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -ms-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5bc0de), color-stop(100%, #339bb9));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -o-linear-gradient(top, #5bc0de, #339bb9);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #339bb9 #339bb9 #22697d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  padding: 5px 14px 6px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -ms-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn:hover {
+  background-position: 0 -15px;
+  color: #333;
+  text-decoration: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn:focus, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn:focus {
+  outline: 1px dotted #666;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.primary, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.primary {
+  color: #ffffff;
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.active,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn:active,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .btn:active {
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.disabled, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.disabled {
+  cursor: default;
+  background-image: none;
+  -khtml-opacity: 0.65;
+  -moz-opacity: 0.65;
+  opacity: 0.65;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn[disabled], .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn[disabled] {
+  cursor: default;
+  background-image: none;
+  -khtml-opacity: 0.65;
+  -moz-opacity: 0.65;
+  opacity: 0.65;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.large, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.large {
+  font-size: 15px;
+  line-height: normal;
+  padding: 9px 14px 9px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .btn.small, .admin_page_biggerboat-jobs-detail #wpbody .wrap .btn.small {
+  padding: 7px 9px 7px;
+  font-size: 11px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap :root .alert-message,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap :root .alert-message,
+.toplevel_page_biggerboat-jobs #wpbody .wrap :root .btn,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap :root .btn {
+  border-radius: 0 \0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap button.btn::-moz-focus-inner,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap button.btn::-moz-focus-inner,
+.toplevel_page_biggerboat-jobs #wpbody .wrap input[type=submit].btn::-moz-focus-inner,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap input[type=submit].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .close, .admin_page_biggerboat-jobs-detail #wpbody .wrap .close {
+  float: right;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 13.5px;
+  text-shadow: 0 1px 0 #ffffff;
+  filter: alpha(opacity=25);
+  -khtml-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .close:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .close:hover {
+  color: #000000;
+  text-decoration: none;
+  filter: alpha(opacity=40);
+  -khtml-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message {
+  position: relative;
+  padding: 7px 15px;
+  margin-bottom: 18px;
+  color: #404040;
+  background-color: #eedc94;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fceec1), to(#eedc94));
+  background-image: -moz-linear-gradient(top, #fceec1, #eedc94);
+  background-image: -ms-linear-gradient(top, #fceec1, #eedc94);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceec1), color-stop(100%, #eedc94));
+  background-image: -webkit-linear-gradient(top, #fceec1, #eedc94);
+  background-image: -o-linear-gradient(top, #fceec1, #eedc94);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #eedc94 #eedc94 #e4c652;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message .close, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message .close {
+  margin-top: 1px;
+  *margin-top: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message a {
+  font-weight: bold;
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.danger p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.danger p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.error p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.error p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.success p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.success p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.info p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.info p a {
+  color: #ffffff;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message h5, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message h5 {
+  line-height: 18px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message p, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message p {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message div, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message div {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  line-height: 28px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message .btn, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message .btn {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message {
+  background-image: none;
+  background-color: #fdf5d9;
+  padding: 14px;
+  border-color: #fceec1;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message p,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message p {
+  margin-right: 30px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message ul, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message ul {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message li {
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message .alert-actions, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message .alert-actions {
+  margin-top: 5px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.error,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.error,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.success,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.success,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.info,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.info {
+  color: #404040;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.error, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.error {
+  background-color: #fddfde;
+  border-color: #fbc7c6;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.success, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.success {
+  background-color: #d1eed1;
+  border-color: #bfe7bf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.info, .admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.info {
+  background-color: #ddf4fb;
+  border-color: #c6edf9;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.danger p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.danger p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.error p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.error p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.success p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.success p a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .alert-message.block-message.info p a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .alert-message.block-message.info p a {
+  color: #404040;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination {
+  height: 36px;
+  margin: 18px 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination ul, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination ul {
+  float: left;
+  margin: 0;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination li {
+  display: inline;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination a {
+  float: left;
+  padding: 0 14px;
+  line-height: 34px;
+  border-right: 1px solid;
+  border-right-color: #ddd;
+  border-right-color: rgba(0, 0, 0, 0.15);
+  *border-right-color: #ddd;
+  /* IE6-7 */
+
+  text-decoration: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination a:hover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination .active a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination .active a {
+  background-color: #c7eefe;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination .disabled a,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination .disabled a,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination .disabled a:hover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination .disabled a:hover {
+  background-color: transparent;
+  color: #bfbfbf;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .pagination .next a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .pagination .next a {
+  border: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .well, .admin_page_biggerboat-jobs-detail #wpbody .wrap .well {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  padding: 19px;
+  min-height: 20px;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .well blockquote, .admin_page_biggerboat-jobs-detail #wpbody .wrap .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-backdrop, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-backdrop {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-backdrop.fade, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-backdrop.fade {
+  opacity: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-backdrop,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-backdrop,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-backdrop.fade.in,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-backdrop.fade.in {
+  filter: alpha(opacity=80);
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 11000;
+  width: 560px;
+  margin: -250px 0 0 -280px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  /* IE6-7 */
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal .close, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal .close {
+  margin-top: 7px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal.fade, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal.fade {
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+  -ms-transition: opacity 0.3s linear, top 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+  transition: opacity 0.3s linear, top 0.3s ease-out;
+  top: -25%;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal.fade.in, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal.fade.in {
+  top: 50%;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-header, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-header {
+  border-bottom: 1px solid #eee;
+  padding: 5px 15px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-body, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-body {
+  padding: 15px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-body form, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-body form {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-footer, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-footer {
+  background-color: #f5f5f5;
+  padding: 14px 15px 15px;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  zoom: 1;
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-footer:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-footer:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-footer:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-footer:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-footer:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-footer:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal-footer .btn, .admin_page_biggerboat-jobs-detail #wpbody .wrap .modal-footer .btn {
+  float: right;
+  margin-left: 5px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal .popover,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal .popover,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .modal .twipsy,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .modal .twipsy {
+  z-index: 12000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy {
+  display: block;
+  position: absolute;
+  visibility: visible;
+  padding: 5px;
+  font-size: 11px;
+  z-index: 1000;
+  filter: alpha(opacity=80);
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy.fade.in, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy.fade.in {
+  filter: alpha(opacity=80);
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy.above .twipsy-arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy.above .twipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy.left .twipsy-arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy.left .twipsy-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy.below .twipsy-arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy.below .twipsy-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy.right .twipsy-arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy.right .twipsy-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy-inner, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy-inner {
+  padding: 3px 8px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  max-width: 200px;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .twipsy-arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .twipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 5px;
+  display: none;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover.above .arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover.above .arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover.right .arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover.right .arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover.below .arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover.below .arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover.left .arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover.left .arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .arrow, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .inner, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .inner {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  overflow: hidden;
+  width: 280px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .title, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .title {
+  background-color: #f5f5f5;
+  padding: 9px 15px;
+  line-height: 1;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #eee;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .content, .admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .content {
+  background-color: #ffffff;
+  padding: 14px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .content p,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .content p,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .content ul,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .content ul,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .popover .content ol,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .popover .content ol {
+  margin-bottom: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .fade, .admin_page_biggerboat-jobs-detail #wpbody .wrap .fade {
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -ms-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+  opacity: 0;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .fade.in, .admin_page_biggerboat-jobs-detail #wpbody .wrap .fade.in {
+  opacity: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label {
+  padding: 1px 3px 2px;
+  font-size: 9.75px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label.important, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label.important {
+  background-color: #c43c35;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label.warning, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label.warning {
+  background-color: #f89406;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label.success, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label.success {
+  background-color: #46a546;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .label.notice, .admin_page_biggerboat-jobs-detail #wpbody .wrap .label.notice {
+  background-color: #62cffc;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid {
+  margin-left: -20px;
+  margin-bottom: 0;
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid:before,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid:before,
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid:after,
+.admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid:after, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid:after {
+  clear: both;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid li, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid li {
+  display: inline;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid a, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid a {
+  float: left;
+  padding: 4px;
+  margin: 0 0 18px 20px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid a img, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid a img {
+  display: block;
+}
+.toplevel_page_biggerboat-jobs #wpbody .wrap .media-grid a:hover, .admin_page_biggerboat-jobs-detail #wpbody .wrap .media-grid a:hover {
+  border-color: #0069d6;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}

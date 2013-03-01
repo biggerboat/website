@@ -1,0 +1,6 @@
+/* line 1, ../sass/handheld.scss */
+* { float: none; /* Screens are not big enough to account for floats */ background: #fff; /*  As much contrast as possible */ color: #000; }
+
+/* Slightly reducing font size to reduce need to scroll */
+/* line 8, ../sass/handheld.scss */
+body { font-size: 80%; }

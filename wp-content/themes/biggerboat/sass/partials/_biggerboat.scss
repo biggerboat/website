@@ -1,0 +1,186 @@
+$content-width: 885px;
+$font-fat-titles: 'Droid Sans', sans-serif;
+$font-geek: 'Droid Sans', sans-serif;
+
+html.js body {
+    opacity: 0;
+}
+
+body {
+	font-size: 12px;
+    background-image: url('../img/background-water.png');
+}
+
+#main {
+    margin-left: 0px;
+}
+
+
+#animationcontainer {
+    position: relative;
+}
+
+.wave {
+    background-image: url('../img/background-wave.png');
+    height: 50px;
+    background-repeat: repeat-x;
+    margin-top: -88px;
+    position: relative;
+    height: 60px;
+}
+
+.wave#secondwave {
+    height: 90px;
+    margin-top: -30px;
+    background-position: 10px 0px;
+    background-position: -20px 0;
+}
+
+#firstwave {
+    z-index: 1;
+}
+
+#secondwave {
+    z-index: 3;
+}
+
+#lighthouse {
+    z-index: 3;
+    background-image: url('../img/lighthouse.png');
+    width: 763px;
+    height: 683px;
+    float: right;
+    margin-top: -693px;
+    position: relative;
+    right: 0px;
+}
+
+.sky {
+    padding-bottom: 580px;
+    background-image: url('../img/background-stripe.jpg');
+}
+
+#boatContainer {
+    z-index: 2;
+    width: $content-width;
+    margin: 0px auto 0px;
+
+    #boat {
+        background-image: url("../img/boat.png");
+        bottom: 0;
+        height: 326px;
+        left: 22px;
+        margin-top: -319px;
+        position: relative;
+        width: 479px;
+        z-index: 2;
+        background-repeat: no-repeat;
+        margin-left: 45px;
+    }
+}
+
+#logo {
+    background-image: url("../img/logo.png");
+    bottom: 423px;
+    display: block;
+    float: left;
+    height: 107px;
+    left: 49px;
+    position: absolute;
+    width: 279px;
+    z-index: 2;
+}
+
+#whatisbiggerboat {
+    bottom: 429px;
+    display: block;
+    float: right;
+    font-family: 'Droid Sans',sans-serif;
+    margin-bottom: 127px;
+    position: relative;
+    right: 199px;
+    width: 241px;
+    z-index: 8;
+    line-height: 1.5em;
+
+    .bigbutton {
+        margin-right: 5px;
+    }
+}
+
+@import "_crew.scss";
+@import "_blog.scss";
+
+
+footer {
+   background-image: url("../img/plant.png");
+    background-position: 150px 50%;
+    background-repeat: no-repeat;
+    height: 190px;
+    margin-top: -120px;
+}
+
+form input.error,form textarea.error {
+    border-color: red;
+}
+
+label {
+    clear: left;
+}
+
+label.error {
+    color: gray;
+    margin-top: -5px;
+    margin-left: -7.3px;
+    margin-bottom: 10px;
+}
+
+
+body .help-block {
+    clear: left;
+    &.black {
+        color: black;
+    }
+}
+
+#biggerboat{
+    .modal {
+        width: 670px;
+        margin: -250px 0 0 -334px;
+        a.close {
+            color: #000000;
+        }
+        a {
+            color: white;
+        }
+    }
+    form .input {
+        margin-left: 0px;
+    }
+    form {
+        margin-bottom: 0px;
+    }
+    .row.color div {
+        background-color: blue;
+        min-height: 10px;
+    }
+    label {
+        text-align: left;
+        float: none;
+    }
+    .input-xlarge, input.xlarge, select.xlarge {
+        width: 270px;
+    }
+
+    textarea.xlarge {
+        width: 329px;
+        height: 126px;
+    }
+    .xlarge.longer {
+        width: 329px;
+    }
+
+    a {
+        color: #e43a7c;
+    }
+}
