@@ -45,10 +45,16 @@
                             </span>
                         </div>
                     </div>
+                      <label>
+                        <input type="checkbox" id="recruiter">
+                        Text for checkbox
+                      </label>
+                    <div>
+                    </div>
                 </div>
             </div>
             <div style="text-align: right;">
-                <a class="btn large success" id="submit_mail">Aye, send message!</a>
+                <a class="btn large disabled" id="submit_mail">Aye, send message!</a>
             </div>
         </form>
     </div>
