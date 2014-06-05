@@ -47,7 +47,10 @@
                     </div>
                       <label>
                         <input type="checkbox" id="recruiter">
-                        Text for checkbox
+                         I understand that this message is sent to all members of Bigger Boat.
+                         I either need your help on a project of the company I work for,
+                         <em>or</em> I'm hoping to help out friends or colleagues from another company,
+                         but I'm not on the prowl to serve as an intermediary — I'm not acting as a recruiter.
                       </label>
                     <div>
                     </div>
