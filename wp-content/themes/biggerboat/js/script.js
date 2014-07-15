@@ -44,8 +44,15 @@ function openMailModal() {
     $('#modal-from-dom').modal('show');
 }
 
+$("#recruiter").click(function(){
+  var checked = $("#recruiter").is(":checked");
+
+  $("#submit_mail").toggleClass("disabled",!checked)
+  $("#submit_mail").toggleClass("success",checked)
+})
+
 function sendMail() {
-    if ($("#contactForm").valid()) {
+    if ($("#recruiter").is(":checked") && $("#contactForm").valid()) {
 
         $.post(THEME_URL + "mailer.php", {
             "nounce" : $('#nounce').attr('value'),
