@@ -2,6 +2,9 @@
 /**
  * @author Jankees van Woezik <jankees@base42.nl>
  */
+
+add_filter('show_admin_bar', '__return_false');
+
 register_taxonomy('member_skills', 'members', array(
                                                    'hierarchical' => false,
                                                    'show_ui' => true,
