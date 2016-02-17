@@ -1,0 +1,47 @@
+{
+	"name": "biggerboat/website",
+	"description": "Biggerboat.nl",
+	"type": "Wordpress installation",
+	"license": "closed",
+	"authors": [
+		{
+			"name": "Laurent van Dommelen",
+			"email": "laurent@studiosugarfree.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"wordpress": "4.*"
+	},
+	"require-dev": {},
+	"extra": {
+		"webroot-dir": "public/wp",
+		"webroot-package": "wordpress",
+		"installer-paths": {
+			"public/wp-config/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress",
+				"type": "webroot",
+				"version": "4.4.1",
+				"dist": {
+					"type": "zip",
+					"url": "https://github.com/WordPress/WordPress/archive/4.4.1.zip"
+				},
+				"require": {
+					"fancyguy/webroot-installer": "1.*"
+				}
+			}
+		}
+	]
+}
