@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-ini_set('display_errors', 0);
-error_reporting(E_CORE_ERROR);
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-require_once('../../../wp-load.php');
+require_once('../../../wp/wp-load.php');
 
 /**
  * global BB functionality
