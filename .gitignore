@@ -5,6 +5,7 @@
 publish/
 compass_app_log.txt
 intermediate/
-wp-content/uploads/
+public/wp-content/uploads/
 public/wp
 vendor
+.DS_Store
