@@ -9,3 +9,4 @@ public/wp-content/uploads/
 public/wp
 vendor
 .DS_Store
+config/wp-config.php
