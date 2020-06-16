@@ -1,7 +1,6 @@
 {
 	"name": "biggerboat/website",
 	"description": "Biggerboat.nl",
-	"type": "Wordpress installation",
 	"license": "closed",
 	"authors": [
 		{
@@ -11,14 +10,16 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"wordpress": "4.*"
+		"wordpress/wordpress": "^5.4.2",
+		"wpackagist-plugin/spinupwp": "^1.1",
+		"wpackagist-plugin/limit-login-attempts-reloaded": "^2.13"
 	},
 	"require-dev": {},
 	"extra": {
 		"webroot-dir": "public/wp",
-		"webroot-package": "wordpress",
+		"webroot-package": "wordpress/wordpress",
 		"installer-paths": {
-			"public/wp-config/plugins/{$name}/": [
+			"public/wp-content/plugins/{$name}/": [
 				"type:wordpress-plugin"
 			]
 		}
@@ -26,20 +27,20 @@
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "http://wpackagist.org"
+			"url": "https://wpackagist.org"
 		},
 		{
 			"type": "package",
 			"package": {
-				"name": "wordpress",
+				"name": "wordpress/wordpress",
 				"type": "webroot",
-				"version": "4.4.2",
+				"version": "5.4.2",
 				"dist": {
 					"type": "zip",
-					"url": "https://github.com/WordPress/WordPress/archive/4.4.2.zip"
+					"url": "https://github.com/WordPress/WordPress/archive/5.4.2.zip"
 				},
 				"require": {
-					"fancyguy/webroot-installer": "1.*"
+					"fancyguy/webroot-installer": "1.0.0"
 				}
 			}
 		}
